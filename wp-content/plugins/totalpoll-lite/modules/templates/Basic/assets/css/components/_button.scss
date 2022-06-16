@@ -1,0 +1,7 @@
+@include buttons {
+  justify-content: flex-end;
+
+  > #{button()} {
+    flex: 0 0 auto;
+  }
+}

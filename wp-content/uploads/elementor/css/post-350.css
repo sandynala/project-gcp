@@ -1,0 +1,67 @@
+.elementor-350 .elementor-element.elementor-element-b696f58 > .elementor-container{min-height:450px;}.elementor-350 .elementor-element.elementor-element-b696f58:not(.elementor-motion-effects-element-type-background), .elementor-350 .elementor-element.elementor-element-b696f58 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-29ddbbd );}.elementor-350 .elementor-element.elementor-element-b696f58, .elementor-350 .elementor-element.elementor-element-b696f58 > .elementor-background-overlay{border-radius:6px 6px 6px 6px;}.elementor-350 .elementor-element.elementor-element-b696f58{box-shadow:0px 1px 6px 0px rgba(0, 0, 0, 0.08235294117647059);transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:24px 24px 24px 24px;}.elementor-350 .elementor-element.elementor-element-b696f58 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-350 .elementor-element.elementor-element-34895fd > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:8px;}.elementor-350 .elementor-element.elementor-element-eee0a5a .elementor-icon-list-item:not(:last-child):after{content:"";height:50%;border-color:var( --e-global-color-6b89c3c );}.elementor-350 .elementor-element.elementor-element-eee0a5a .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child):after{border-top-style:solid;border-top-width:1px;}.elementor-350 .elementor-element.elementor-element-eee0a5a .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:not(:last-child):after{border-left-style:solid;}.elementor-350 .elementor-element.elementor-element-eee0a5a .elementor-inline-items .elementor-icon-list-item:not(:last-child):after{border-left-width:1px;}.elementor-350 .elementor-element.elementor-element-eee0a5a .elementor-icon-list-icon{width:14px;}.elementor-350 .elementor-element.elementor-element-eee0a5a .elementor-icon-list-icon i{font-size:14px;}.elementor-350 .elementor-element.elementor-element-eee0a5a .elementor-icon-list-icon svg{--e-icon-list-icon-size:14px;}.elementor-350 .elementor-element.elementor-element-eee0a5a .elementor-icon-list-text, .elementor-350 .elementor-element.elementor-element-eee0a5a .elementor-icon-list-text a{color:var( --e-global-color-6b89c3c );}.elementor-350 .elementor-element.elementor-element-eee0a5a .elementor-icon-list-item{font-family:"Proxima Nova", Sans-serif;font-size:0.875rem;font-weight:400;}.elementor-350 .elementor-element.elementor-element-eee0a5a{width:auto;max-width:auto;}.elementor-350 .elementor-element.elementor-element-a7e53bf{width:auto;max-width:auto;top:0px;}body:not(.rtl) .elementor-350 .elementor-element.elementor-element-a7e53bf{right:0px;}body.rtl .elementor-350 .elementor-element.elementor-element-a7e53bf{left:0px;}.elementor-350 .elementor-element.elementor-element-4343de1 img{height:230px;object-fit:cover;border-radius:8px 8px 0px 0px;}.elementor-350 .elementor-element.elementor-element-4343de1 > .elementor-widget-container{margin:8px 0px 8px 0px;}.elementor-350 .elementor-element.elementor-element-bf91cd5 .elementor-heading-title{color:var( --e-global-color-653ee0c );font-family:"Proxima Nova", Sans-serif;font-weight:800;}.elementor-350 .elementor-element.elementor-element-bf91cd5 > .elementor-widget-container{margin:8px 0px 0px 0px;}.elementor-350 .elementor-element.elementor-element-0a0c883 .elementor-widget-container{color:var( --e-global-color-text );font-family:"Proxima Nova", Sans-serif;font-weight:400;}.elementor-350 .elementor-element.elementor-element-95a9bad{color:var( --e-global-color-primary );font-family:"Proxima Nova", Sans-serif;font-weight:400;}.elementor-350 .elementor-element.elementor-element-95a9bad > .elementor-widget-container{margin:8px 0px 0px 0px;}/* Start custom CSS for shortcode, class: .elementor-element-a7e53bf */.elementor-350 .elementor-element.elementor-element-a7e53bf .elementor-icon-list-icon {
+    margin-top: 4px;
+    font-size: 0.8em;
+}
+.elementor-350 .elementor-element.elementor-element-a7e53bf .elementor-icon-list-text {
+    color: #A0A0A0;
+    font-size: 0.85em;
+}
+.elementor-350 .elementor-element.elementor-element-a7e53bf ul li:first-child .elementor-icon-list-text:after {
+    content: '';
+    border-right: 1px solid #A0A0A0;
+    font-size: 0.7rem;
+    padding-right: 10px;
+}
+
+.elementor-350 .elementor-element.elementor-element-a7e53bf ul li:first-child {
+    margin-right: 4px !important;
+}/* End custom CSS */
+/* Start custom CSS for theme-post-title, class: .elementor-element-bf91cd5 */.elementor-350 .elementor-element.elementor-element-bf91cd5 {
+    height: 3.5em;
+    overflow: hidden;
+}/* End custom CSS */
+/* Start custom CSS for theme-post-excerpt, class: .elementor-element-0a0c883 */.elementor-350 .elementor-element.elementor-element-0a0c883 {
+    height: 4.5em;
+    overflow: hidden;
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-b696f58 */.elementor-350 .elementor-element.elementor-element-b696f58 {
+    flex: auto;
+}/* End custom CSS */
+/* Start custom CSS */body.elementor-page-350 {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Regular.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Bold.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Light.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Extrabold.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Extrabold.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

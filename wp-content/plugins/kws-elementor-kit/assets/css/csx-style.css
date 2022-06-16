@@ -1,0 +1,524 @@
+/*  Custom Skin    */
+/*  https://www.kwstech.in */
+.csx-post-dyno .elementor-page-title{
+  display:block;
+}
+
+.csx-dyno-preview{
+  height:100%;
+  width:100%;
+  background:lightgray;
+  border:solid 1px gray;
+  padding:5px;
+}
+.csx-dyno-preview h3{
+  font-size:16px;
+  font-weight:500;
+  
+}
+.csx-dyno-preview span{
+  font-size:12px;
+}
+.csx-dyno-preview .csx-image-holder{
+    width: 100%;
+    line-height: 113px;
+    background-color: #808080;
+    font-size: 45px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 900;
+    color: #929191;
+}
+
+.csx-link-wrapper{
+  cursor: pointer;
+}
+.elementor-widget-csx-dyno-item, .elementor-widget-csx-dyno-item > .elementor-widget-container,
+.elementor-element-edit-mode.elementor-widget-csx-dyno-item, .elementor-element-edit-mode.elementor-widget-csx-dyno-item > .elementor-widget-container{
+  
+    height: 100%;
+
+}
+/* Fix for Elementor 3.4 */
+
+.elementor-widget-posts .csx-posts .elementor-button-wrapper {
+    margin-top: 0;
+}
+
+/* Fix astra css issues */
+
+.csx-post-dyno .ast-article-single{
+    background-color: none;
+    border-bottom:none;
+    margin: 0;
+    padding: 0;
+}
+.csx-post-dyno.ast-article-post{
+    width:100%;
+}
+/* fix storeforent css issues*/
+
+.theme-storefront.elementor-editor-active #primary.content-area{
+	float:none;
+} 
+
+/* Lazy Load Animations */
+
+.elementor-editor-active .csx-lazyload a,.elementor-editor-preview .csx-lazyload a{
+  display:none;
+}
+.animation-hidden .csx-lazy-load-animation{
+  height:0;
+  visibility:hidden;
+}
+
+/* loading bar progresion */
+/*
+<div class="barload-wrapper  csx-lazy-load-animation"><div class="barload-border csx-ll-brcolor"><div class="barload-whitespace"><div class="barload-line csx-ll-bgcolor"></div></div></div></div>
+*/
+.barload-wrapper {
+	width: 195px;
+	height: 1em;
+	position: relative;
+	display:inline-block;
+  font-size:16px;
+  padding:10px;
+}
+
+.barload-border {
+	border: 3px solid rgb(34,34,34);
+	height: 100%;
+	width: 100%;
+	position: relative;
+	
+	top: -50%;
+	padding: 4px 3px;
+}
+
+.barload-whitespace {
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.barload-line {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgb(0,0,0);
+	animation: barload-slide 2.75s steps(40) infinite;
+		-o-animation: barload-slide 2.75s steps(40) infinite;
+		-ms-animation: barload-slide 2.75s steps(40) infinite;
+		-webkit-animation: barload-slide 2.75s steps(40) infinite;
+		-moz-animation: barload-slide 2.75s steps(40) infinite;
+}
+
+
+
+@keyframes barload-slide {
+	0% {
+		left: -100%;
+	}
+	
+	100% {
+		left: 100%;
+	}
+}
+
+@-o-keyframes barload-slide {
+	0% {
+		left: -100%;
+	}
+	
+	100% {
+		left: 100%;
+	}
+}
+
+@-ms-keyframes barload-slide {
+	0% {
+		left: -100%;
+	}
+	
+	100% {
+		left: 100%;
+	}
+}
+
+@-webkit-keyframes barload-slide {
+	0% {
+		left: -100%;
+	}
+	
+	100% {
+		left: 100%;
+	}
+}
+
+@-moz-keyframes barload-slide {
+	0% {
+		left: -100%;
+	}
+	
+	100% {
+		left: 100%;
+	}
+}
+/* four ball moving from left to right*/
+/*
+<div class="ballsload-container csx-lazy-load-animation"><div class="csx-ll-bgcolor"></div><div class="csx-ll-bgcolor"></div><div class="csx-ll-bgcolor"></div><div class="csx-ll-bgcolor"></div></div>
+*/
+
+.barload-wrapper ,.barload-wrapper * {
+  box-sizing:content-box;
+} 
+.ballsload-container{
+    font-size:16px;
+    padding:10px;
+    position:relative;
+	}
+	
+.ballsload-container div {
+	width: 1em;
+	height: 1em;
+	position: absolute;
+	background-color: rgb(0,0,0);
+	top: 0;
+	border-radius: 50%;
+}
+
+.ballsload-container div:nth-child(1) {
+
+	animation: ballsload-move 2.3s infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+		-o-animation: ballsload-move 2.3s infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+		-ms-animation: ballsload-move 2.3s infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+		-webkit-animation: ballsload-move 2.3s infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+		-moz-animation: ballsload-move 2.3s infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+}
+
+.ballsload-container div:nth-child(2) {
+
+	animation: ballsload-move 2.3s 172.5ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+		-o-animation: ballsload-move 2.3s 172.5ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+		-ms-animation: ballsload-move 2.3s 172.5ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+		-webkit-animation: ballsload-move 2.3s 172.5ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+		-moz-animation: ballsload-move 2.3s 172.5ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+}
+
+.ballsload-container div:nth-child(3) {
+
+	animation: ballsload-move 2.3s 345ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+		-o-animation: ballsload-move 2.3s 345ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+		-ms-animation: ballsload-move 2.3s 345ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+		-webkit-animation: ballsload-move 2.3s 345ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+		-moz-animation: ballsload-move 2.3s 345ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+}
+
+.ballsload-container div:nth-child(4) {
+
+	animation: ballsload-move 2.3s 517.5ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+		-o-animation: ballsload-move 2.3s 517.5ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+		-ms-animation: ballsload-move 2.3s 517.5ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+		-webkit-animation: ballsload-move 2.3s 517.5ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+		-moz-animation: ballsload-move 2.3s 517.5ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
+}
+
+
+
+@keyframes ballsload-move {
+	0% {
+		left: 0%;
+	}
+	100% {
+		left: 100%;
+	}
+}
+
+@-o-keyframes ballsload-move {
+	0% {
+		left: 0%;
+	}
+	100% {
+		left: 100%;
+	}
+}
+
+@-ms-keyframes ballsload-move {
+	0% {
+		left: 0%;
+	}
+	100% {
+		left: 100%;
+	}
+}
+
+@-webkit-keyframes ballsload-move {
+	0% {
+		left: 0%;
+	}
+	100% {
+		left: 100%;
+	}
+}
+
+@-moz-keyframes ballsload-move {
+	0% {
+		left: 0%;
+	}
+	100% {
+		left: 100%;
+	}
+}
+
+
+/* one ball sliding left to right */
+/*
+<div id="movingBallG" class="csx-lazy-load-animation"><div class="movingBallLineG  csx-ll-bgcolor"></div><div id="movingBallG_1" class="movingBallG csx-ll-bgcolor"></div></div>
+*/
+
+#movingBallG{
+	position:relative;
+	width:250px;
+	height:19px;
+	display:inline-block;
+  font-size:16px;
+}
+
+.movingBallLineG{
+	position:absolute;
+	left:0px;
+	top:0.5em;
+	height:0.25em;
+	width:250px;
+	background-color:rgb(0,0,0);
+}
+
+.movingBallG{
+	background-color:rgb(0,0,0);
+	position:absolute;
+	top:0;
+	left:0;
+	width:1.188em;
+	height:1.188em;
+	border-radius:100px;
+		-o-border-radius:100px;
+		-ms-border-radius:100px;
+		-webkit-border-radius:100px;
+		-moz-border-radius:100px;
+	animation-name:bounce_movingBallG;
+		-o-animation-name:bounce_movingBallG;
+		-ms-animation-name:bounce_movingBallG;
+		-webkit-animation-name:bounce_movingBallG;
+		-moz-animation-name:bounce_movingBallG;
+	animation-duration:1.5s;
+		-o-animation-duration:1.5s;
+		-ms-animation-duration:1.5s;
+		-webkit-animation-duration:1.5s;
+		-moz-animation-duration:1.5s;
+	animation-iteration-count:infinite;
+		-o-animation-iteration-count:infinite;
+		-ms-animation-iteration-count:infinite;
+		-webkit-animation-iteration-count:infinite;
+		-moz-animation-iteration-count:infinite;
+	animation-direction:normal;
+		-o-animation-direction:normal;
+		-ms-animation-direction:normal;
+		-webkit-animation-direction:normal;
+		-moz-animation-direction:normal;
+}
+
+
+
+@keyframes bounce_movingBallG{
+	0%{
+		left:0px;
+	}
+
+	50%{
+		left:230px;
+	}
+
+	100%{
+		left:0px;
+	}
+}
+
+@-o-keyframes bounce_movingBallG{
+	0%{
+		left:0px;
+	}
+
+	50%{
+		left:230px;
+	}
+
+	100%{
+		left:0px;
+	}
+}
+
+@-ms-keyframes bounce_movingBallG{
+	0%{
+		left:0px;
+	}
+
+	50%{
+		left:230px;
+	}
+
+	100%{
+		left:0px;
+	}
+}
+
+@-webkit-keyframes bounce_movingBallG{
+	0%{
+		left:0px;
+	}
+
+	50%{
+		left:230px;
+	}
+
+	100%{
+		left:0px;
+	}
+}
+
+@-moz-keyframes bounce_movingBallG{
+	0%{
+		left:0px;
+	}
+
+	50%{
+		left:230px;
+	}
+
+	100%{
+		left:0px;
+	}
+}
+
+
+/* loading 3 dots moving form left to write */
+
+/* 
+<div class="lds-ellipsis csx-lazy-load-animation"><div class="csx-ll-bgcolor"></div><div class="csx-ll-bgcolor"></div><div class="csx-ll-bgcolor"></div><div class="csx-ll-bgcolor"></div></div> 
+*/
+
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 8em;
+  height: 1em;
+  font-size:13px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 0px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background: #000;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 1em;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 1em;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 4em;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 7em;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(3em, 0);
+  }
+}
+
+
+
+.shadow-swiper .swiper-container {
+	position: relative;
+	padding: 3px;
+}
+.shadow-swiper .swiper-container::before {
+    position: absolute;
+    content: "\00a0";
+    height: 99.5%;
+    width: 2%;
+	right: 0;
+    z-index: 2;
+    opacity: 0.25;
+	background-image: linear-gradient(to right, transparent, #00000044);
+	background-image: -moz-linear-gradient(to right, transparent, #00000044);
+	background-image: -ms-linear-gradient(to right, transparent, #00000044);
+	background-image: -o-linear-gradient(to right, transparent, #00000044);
+	background-image: -webkit-linear-gradient(to right, transparent, #00000044);
+}
+.shadow-swiper .elementor-swiper-button {
+	z-index: 3;
+}
+
+.webinar-live-pill {
+	color: #D10909;
+	border: 1px solid #D10909;
+	font-size: 14px;
+	border-radius: 25px;
+	font-weight: bold;
+	font-size: 0.8em;
+	line-height: 1.1em;
+	padding: 2px 15px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+.attach-callout::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    left: -24px;
+    width: 25px;
+    height: 40px;
+    background: url('../images/t-callout.svg');
+    top: 1.5em;
+    /*
+    border-style: solid;
+    border-width: 0 25px 22px 0;
+    border-color: transparent #fff transparent transparent;
+    border-radius: 25px 0px 0px 10px;
+    margin-top: -15px;
+    */
+}

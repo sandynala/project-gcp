@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="44" viewBox="0 0 28 44">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_18517" data-name="Rectangle 18517" width="28" height="44" transform="translate(71 7584)" fill="#fff"/>
+    </clipPath>
+    <filter id="Union_7" x="-5.151" y="-29.999" width="433.152" height="242.998" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Mask_Group_316" data-name="Mask Group 316" transform="translate(-71 -7584)" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, 71, 7584)" filter="url(#Union_7)">
+      <path id="Union_7-2" data-name="Union 7" d="M8439.152,4585a6,6,0,0,1-6-6V4420.126s-2.6-20.458-19.637-22.69,19.637-7.5,19.637-7.5V4366a6,6,0,0,1,6-6h379a6,6,0,0,1,6,6v213a6,6,0,0,1-6,6Z" transform="translate(-8405.15 -4382)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

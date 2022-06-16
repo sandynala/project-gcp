@@ -1,0 +1,36 @@
+.elementor-9004111222087385 .elementor-element.elementor-element-3155b423:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-9004111222087385 .elementor-element.elementor-element-3155b423 > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-position:center center;background-repeat:no-repeat;background-size:cover;}.elementor-9004111222087385 .elementor-element.elementor-element-3155b423 > .elementor-element-populated >  .elementor-background-overlay{background-color:transparent;background-image:linear-gradient(180deg, #7C7C7C52 0%, #000000BC 100%);opacity:1;}.elementor-9004111222087385 .elementor-element.elementor-element-3155b423 > .elementor-element-populated, .elementor-9004111222087385 .elementor-element.elementor-element-3155b423 > .elementor-element-populated > .elementor-background-overlay, .elementor-9004111222087385 .elementor-element.elementor-element-3155b423 > .elementor-background-slideshow{border-radius:8px 8px 8px 8px;}.elementor-9004111222087385 .elementor-element.elementor-element-3155b423 > .elementor-element-populated{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:50px 0px 30px 0px;}.elementor-9004111222087385 .elementor-element.elementor-element-3155b423 > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-9004111222087385 .elementor-element.elementor-element-5d0232ed > .elementor-widget-container{margin:0px 0px 20px 0px;}.elementor-9004111222087385 .elementor-element.elementor-element-12be9729 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-bottom:calc(8px/2);}.elementor-9004111222087385 .elementor-element.elementor-element-12be9729 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-top:calc(8px/2);}.elementor-9004111222087385 .elementor-element.elementor-element-12be9729 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-right:calc(8px/2);margin-left:calc(8px/2);}.elementor-9004111222087385 .elementor-element.elementor-element-12be9729 .elementor-icon-list-items.elementor-inline-items{margin-right:calc(-8px/2);margin-left:calc(-8px/2);}body.rtl .elementor-9004111222087385 .elementor-element.elementor-element-12be9729 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{left:calc(-8px/2);}body:not(.rtl) .elementor-9004111222087385 .elementor-element.elementor-element-12be9729 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{right:calc(-8px/2);}.elementor-9004111222087385 .elementor-element.elementor-element-12be9729 .elementor-icon-list-icon{width:14px;}.elementor-9004111222087385 .elementor-element.elementor-element-12be9729 .elementor-icon-list-icon i{font-size:14px;}.elementor-9004111222087385 .elementor-element.elementor-element-12be9729 .elementor-icon-list-icon svg{--e-icon-list-icon-size:14px;}.elementor-9004111222087385 .elementor-element.elementor-element-12be9729 .elementor-icon-list-text, .elementor-9004111222087385 .elementor-element.elementor-element-12be9729 .elementor-icon-list-text a{color:var( --e-global-color-29ddbbd );}.elementor-9004111222087385 .elementor-element.elementor-element-12be9729 > .elementor-widget-container{padding:0px 0px 0px 15px;}.elementor-9004111222087385 .elementor-element.elementor-element-225c1cf3 .elementor-heading-title{color:var( --e-global-color-29ddbbd );font-family:"Proxima Nova", Sans-serif;font-size:1.5rem;font-weight:800;}.elementor-9004111222087385 .elementor-element.elementor-element-225c1cf3 > .elementor-widget-container{padding:0px 0px 0px 15px;}@media(max-width:767px){.elementor-9004111222087385 .elementor-element.elementor-element-225c1cf3 .elementor-heading-title{font-size:1.25rem;line-height:22px;}}/* Start custom CSS for theme-post-title, class: .elementor-element-225c1cf3 */.elementor-9004111222087385 .elementor-element.elementor-element-225c1cf3{
+    min-height:3.5em;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Regular.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Bold.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Light.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Extrabold.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Extrabold.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

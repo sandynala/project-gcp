@@ -1,0 +1,18 @@
+@import "../../../Boilerplate/assets/css/components/variables";
+@import "../../../Boilerplate/assets/css/components/functions";
+@import "../../../Boilerplate/assets/css/components/mixins";
+
+@include poll {
+  @import "../../../Boilerplate/assets/css/components/utils";
+  @import "../../../Boilerplate/assets/css/components/reset";
+  @import "../../../Boilerplate/assets/css/components/container";
+  @import "../../../Boilerplate/assets/css/components/form";
+  @import "../../../Boilerplate/assets/css/components/button";
+  @import "../../../Boilerplate/assets/css/components/message";
+  @import "../../../Boilerplate/assets/css/components/embed";
+  @import "../../../Boilerplate/assets/css/components/share";
+  @import "components/button";
+  @import "components/question";
+
+
+}

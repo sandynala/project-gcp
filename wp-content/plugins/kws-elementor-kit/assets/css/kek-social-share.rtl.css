@@ -1,0 +1,515 @@
+.kek-layout-style--inline .kek-social-share {
+  display: flex;
+  flex-wrap: wrap; }
+
+.kek-layout-style--grid .kek-social-share {
+  display: grid; }
+
+.kek-ss-position--top-left .kek-social-share,
+.kek-ss-position--top-right .kek-social-share,
+.kek-ss-position--center-left .kek-social-share,
+.kek-ss-position--center-right .kek-social-share,
+.kek-ss-position--bottom-left .kek-social-share,
+.kek-ss-position--bottom-right .kek-social-share {
+  position: fixed;
+  z-index: 111; }
+
+.kek-ss-position--top-left .kek-social-share {
+  right: 0;
+  top: 0; }
+
+.kek-ss-position--top-right .kek-social-share {
+  left: 0;
+  top: 0; }
+
+.kek-ss-position--bottom-left .kek-social-share {
+  right: 0;
+  bottom: 0; }
+
+.kek-ss-position--bottom-right .kek-social-share {
+  left: 0;
+  bottom: 0; }
+
+.kek-ss-position--center-left .kek-social-share,
+.kek-ss-position--center-right .kek-social-share {
+  display: inline;
+  top: 50%;
+  transform: translateY(-50%); }
+  .kek-ss-position--center-left .kek-social-share .kek-ss-btn,
+  .kek-ss-position--center-right .kek-social-share .kek-ss-btn {
+    height: 4.2em;
+    width: 4.2em; }
+    .kek-ss-position--center-left .kek-social-share .kek-ss-btn:hover,
+    .kek-ss-position--center-right .kek-social-share .kek-ss-btn:hover {
+      width: 100%; }
+  .kek-ss-position--center-left .kek-social-share .kek-ss-icon,
+  .kek-ss-position--center-right .kek-social-share .kek-ss-icon {
+    width: 4.2em;
+    min-width: 4.2em; }
+
+.kek-ss-position--center-left.kek-ss-btns-view-text .kek-social-share .kek-ss-btn,
+.kek-ss-position--center-right.kek-ss-btns-view-text .kek-social-share .kek-ss-btn {
+  width: 100%; }
+
+.kek-ss-position--center-left.kek-ss-btns-view-text .kek-social-share .kek-social-share-text,
+.kek-ss-position--center-right.kek-ss-btns-view-text .kek-social-share .kek-social-share-text {
+  padding-right: 1.3em;
+  padding-left: 1.3em; }
+
+.kek-ss-position--center-left .kek-social-share {
+  right: 0; }
+
+.kek-ss-position--center-right .kek-social-share {
+  left: 0;
+  direction: ltr; }
+  .kek-ss-position--center-right .kek-social-share .kek-social-share-text {
+    padding-right: 1.3em;
+    padding-left: 0; }
+
+.kek-ss-btn {
+  cursor: pointer; }
+
+.elementor-widget-share-buttons .kek-ep-grid {
+  overflow: hidden; }
+
+.kek-ss-btns-style-boxed .kek-social-share-text,
+.kek-ss-btns-style-minimal .kek-social-share-text,
+.kek-ss-btns-style-gradient .kek-social-share-text {
+  padding-right: 0.9em; }
+
+.kek-ss-btns-style-flat .kek-social-share,
+.kek-ss-btns-style-flat .kek-social-share:hover,
+.kek-ss-btns-style-gradient .kek-social-share,
+.kek-ss-btns-style-gradient .kek-social-share:hover {
+  color: #fff; }
+
+.kek-ss-btns-style-flat .kek-social-link a,
+.kek-ss-btns-style-flat .kek-social-link a:hover,
+.kek-ss-btns-style-gradient .kek-social-link a,
+.kek-ss-btns-style-gradient .kek-social-link a:hover {
+  color: #fff; }
+
+.kek-ss-icon-top--yes .kek-ss-btn {
+  flex-direction: column;
+  height: auto; }
+  .kek-ss-icon-top--yes .kek-ss-btn .kek-ss-icon {
+    width: auto;
+    padding: 10px 10px 0 10px; }
+  .kek-ss-icon-top--yes .kek-ss-btn .kek-social-share-text {
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    text-align: center; }
+
+.kek-ss-icon-top--yes.kek-ss-btns-style-minimal .kek-ss-btn, .kek-ss-icon-top--yes.kek-ss-btns-style-gradient .kek-ss-btn, .kek-ss-icon-top--yes.kek-ss-btns-style-boxed .kek-ss-btn {
+  padding: 0px; }
+  .kek-ss-icon-top--yes.kek-ss-btns-style-minimal .kek-ss-btn .kek-ss-icon, .kek-ss-icon-top--yes.kek-ss-btns-style-gradient .kek-ss-btn .kek-ss-icon, .kek-ss-icon-top--yes.kek-ss-btns-style-boxed .kek-ss-btn .kek-ss-icon {
+    padding: 10px; }
+
+.kek-ss-btns-style-minimal.kek-ss-btns-shape-rounded .kek-ss-icon {
+  border-radius: 0.5em; }
+
+.kek-ss-btns-style-minimal.kek-ss-btns-shape-circle .kek-ss-icon {
+  border-radius: 99.9em; }
+
+.kek-ss-btns-style-minimal .kek-social-share-text {
+  color: #222; }
+
+.kek-ss-btns-view-text .kek-social-share-text {
+  padding-right: 1.3em; }
+
+.kek-ss-btns-view-text .kek-ss-icon,
+.kek-ss-btns-view-text .kek-social-share-text,
+.kek-ss-btns-view-icon .kek-ss-icon,
+.kek-ss-btns-view-icon .kek-social-share-text {
+  flex-grow: 1;
+  justify-content: center; }
+
+.kek-ss-btn {
+  overflow: hidden;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  transition-duration: 0.2s;
+  transition-property: filter, background-color, border-color, width;
+  height: 4.2em;
+  cursor: pointer; }
+
+.kek-ss-icon,
+.kek-social-share-text {
+  transition-property: color, background-color;
+  transition-duration: 0.2s; }
+
+.kek-ss-icon {
+  display: flex;
+  align-self: stretch;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 4.2em;
+  position: relative; }
+
+.kek-ss-icon i {
+  font-size: 1.5em; }
+
+.kek-social-share-text {
+  font-size: 1.3em;
+  padding-left: 1.3em;
+  align-self: stretch;
+  flex-grow: 1;
+  align-items: center;
+  display: flex;
+  font-weight: 100; }
+
+.kek-social-share-title {
+  font-weight: bold;
+  flex-shrink: 0; }
+
+.kek-social-share-title + .kek-social-share-counter {
+  margin-right: 0.5em;
+  flex-shrink: 0; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-vkontakte, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-vkontakte {
+  background-color: #45668e; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-facebook, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-facebook {
+  background-color: #3b5998; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-odnoklassniki, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-odnoklassniki {
+  background-color: #F4731C; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-moimir, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-moimir {
+  background-color: #168DE2; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-googleplus, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-googleplus {
+  background-color: #dd4b39; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-linkedin, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-linkedin {
+  background-color: #0077b5; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-twitter, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-twitter {
+  background-color: #1DA1F2; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-livejournal, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-livejournal {
+  background-color: #00B0EA; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-tumblr, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-tumblr {
+  background-color: #35465c; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-blogger, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-blogger {
+  background-color: #F06A35; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-pinterest, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-pinterest {
+  background-color: #bd081c; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-digg, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-digg {
+  background-color: #005be2; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-evernote, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-evernote {
+  background-color: #2DBE60; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-reddit, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-reddit {
+  background-color: #ff4500; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-delicious, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-delicious {
+  background-color: #3399ff; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-mix, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-mix {
+  background-color: #fd8235; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-pocket, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-pocket {
+  background-color: #EF3F56; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-surfingbird, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-surfingbird {
+  background-color: #25B1F6; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-liveinternet, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-liveinternet {
+  background-color: #5382C4; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-buffer, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-buffer {
+  background-color: #1B1B1B; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-instapaper, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-instapaper {
+  background-color: #000000; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-xing, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-xing {
+  background-color: #026466; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-wordpress, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-wordpress {
+  background-color: #21759b; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-baidu, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-baidu {
+  background-color: #2319DC; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-renren, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-renren {
+  background-color: #237EC5; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-weibo, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-weibo {
+  background-color: #E6162D; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-skype, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-skype {
+  background-color: #00AFF0; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-telegram, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-telegram {
+  background-color: #2CA5E0; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-viber, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-viber {
+  background-color: #834995; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-whatsapp, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-whatsapp {
+  background-color: #25d366; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-line, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-line {
+  background-color: #00B900; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-wechat, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-wechat {
+  background-color: #2DC100; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-meneame, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-meneame {
+  background-color: #F86100; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-flat .kek-ss-flipboard, .kek-ss-btns-color-original.kek-ss-btns-style-gradient .kek-ss-flipboard {
+  background-color: #F52827; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-vkontakte, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-vkontakte {
+  color: #45668e; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-facebook, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-facebook {
+  color: #3b5998; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-odnoklassniki, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-odnoklassniki {
+  color: #F4731C; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-moimir, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-moimir {
+  color: #168DE2; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-googleplus, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-googleplus {
+  color: #dd4b39; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-linkedin, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-linkedin {
+  color: #0077b5; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-twitter, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-twitter {
+  color: #1DA1F2; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-livejournal, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-livejournal {
+  color: #00B0EA; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-tumblr, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-tumblr {
+  color: #35465c; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-blogger, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-blogger {
+  color: #F06A35; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-pinterest, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-pinterest {
+  color: #bd081c; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-digg, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-digg {
+  color: #005be2; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-evernote, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-evernote {
+  color: #2DBE60; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-reddit, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-reddit {
+  color: #ff4500; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-delicious, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-delicious {
+  color: #3399ff; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-mix, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-mix {
+  color: #fd8235; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-pocket, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-pocket {
+  color: #EF3F56; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-surfingbird, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-surfingbird {
+  color: #25B1F6; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-liveinternet, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-liveinternet {
+  color: #5382C4; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-buffer, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-buffer {
+  color: #1B1B1B; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-instapaper, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-instapaper {
+  color: #000000; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-xing, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-xing {
+  color: #026466; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-wordpress, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-wordpress {
+  color: #21759b; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-baidu, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-baidu {
+  color: #2319DC; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-renren, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-renren {
+  color: #237EC5; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-weibo, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-weibo {
+  color: #E6162D; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-skype, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-skype {
+  color: #00AFF0; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-telegram, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-telegram {
+  color: #2CA5E0; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-viber, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-viber {
+  color: #834995; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-whatsapp, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-whatsapp {
+  color: #25d366; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-line, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-line {
+  color: #00B900; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-wechat, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-wechat {
+  color: #2DC100; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-meneame, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-meneame {
+  color: #F86100; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-framed .kek-ss-flipboard, .kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-flipboard {
+  color: #F52827; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-vkontakte .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-vkontakte .kek-ss-icon {
+  background-color: #45668e; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-facebook .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-facebook .kek-ss-icon {
+  background-color: #3b5998; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-odnoklassniki .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-odnoklassniki .kek-ss-icon {
+  background-color: #F4731C; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-moimir .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-moimir .kek-ss-icon {
+  background-color: #168DE2;
+  color: #FFAF32; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-googleplus .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-googleplus .kek-ss-icon {
+  background-color: #dd4b39; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-linkedin .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-linkedin .kek-ss-icon {
+  background-color: #0077b5; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-twitter .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-twitter .kek-ss-icon {
+  background-color: #1DA1F2; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-livejournal .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-livejournal .kek-ss-icon {
+  background-color: #00B0EA; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-tumblr .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-tumblr .kek-ss-icon {
+  background-color: #35465c; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-blogger .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-blogger .kek-ss-icon {
+  background-color: #F06A35; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-pinterest .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-pinterest .kek-ss-icon {
+  background-color: #bd081c; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-digg .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-digg .kek-ss-icon {
+  background-color: #005be2; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-evernote .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-evernote .kek-ss-icon {
+  background-color: #2DBE60; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-reddit .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-reddit .kek-ss-icon {
+  background-color: #ff4500; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-delicious .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-delicious .kek-ss-icon {
+  background-color: #3399ff; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-mix .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-mix .kek-ss-icon {
+  background-color: #fd8235; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-pocket .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-pocket .kek-ss-icon {
+  background-color: #EF3F56; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-surfingbird .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-surfingbird .kek-ss-icon {
+  background-color: #25B1F6; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-liveinternet .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-liveinternet .kek-ss-icon {
+  background-color: #5382C4; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-buffer .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-buffer .kek-ss-icon {
+  background-color: #1B1B1B; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-instapaper .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-instapaper .kek-ss-icon {
+  background-color: #000000; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-xing .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-xing .kek-ss-icon {
+  background-color: #026466; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-wordpress .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-wordpress .kek-ss-icon {
+  background-color: #21759b; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-baidu .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-baidu .kek-ss-icon {
+  background-color: #2319DC; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-renren .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-renren .kek-ss-icon {
+  background-color: #237EC5; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-weibo .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-weibo .kek-ss-icon {
+  background-color: #E6162D; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-skype .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-skype .kek-ss-icon {
+  background-color: #00AFF0; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-telegram .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-telegram .kek-ss-icon {
+  background-color: #2CA5E0; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-viber .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-viber .kek-ss-icon {
+  background-color: #834995; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-whatsapp .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-whatsapp .kek-ss-icon {
+  background-color: #25d366; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-line .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-line .kek-ss-icon {
+  background-color: #00B900; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-wechat .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-wechat .kek-ss-icon {
+  background-color: #2DC100; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-meneame .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-meneame .kek-ss-icon {
+  background-color: #F86100; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-flipboard .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-flipboard .kek-ss-icon {
+  background-color: #F52827; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-btn .kek-ss-icon, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-btn .kek-ss-icon {
+  color: #fff; }
+
+.kek-ss-btns-color-original.kek-ss-btns-style-boxed .kek-ss-moimir .kek-ss-icon .fa-moimir:before, .kek-ss-btns-color-original.kek-ss-btns-style-minimal .kek-ss-moimir .kek-ss-icon .fa-moimir:before {
+  color: #FFAF32; }
+
+.kek-ss-btns-style-framed .kek-ss-btn,
+.kek-ss-btns-style-boxed .kek-ss-btn {
+  border-style: solid; }
+
+.kek-ss-btns-style-gradient .kek-social-share-text {
+  background: linear-gradient(-135deg, rgba(0, 0, 0, 0.12) 0%, rgba(0, 0, 0, 0) 100%); }
+
+.kek-ss-btns-style-gradient.kek-ss-btns-view-icon .kek-ss-icon {
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.12), transparent); }
+
+.kek-ss-btns-color-original .kek-ss-btn:hover {
+  filter: saturate(1.2) brightness(1.1); }
+
+.kek-ss-btns-color-custom.kek-ss-btns-style-flat .kek-ss-btn,
+.kek-ss-btns-color-custom.kek-ss-btns-style-gradient .kek-ss-btn {
+  background-color: #666; }
+
+.kek-ss-btns-color-custom.kek-ss-btns-style-framed .kek-ss-btn,
+.kek-ss-btns-color-custom.kek-ss-btns-style-minimal .kek-ss-btn,
+.kek-ss-btns-color-custom.kek-ss-btns-style-boxed .kek-ss-btn {
+  color: #666;
+  border-color: #666; }
+
+.kek-ss-btns-color-custom.kek-ss-btns-style-boxed .kek-ss-btn .kek-ss-icon,
+.kek-ss-btns-color-custom.kek-ss-btns-style-minimal .kek-ss-btn .kek-ss-icon {
+  background-color: #666; }
+
+.kek-ss-btns-color-custom.kek-ss-btns-style-boxed .kek-ss-icon,
+.kek-ss-btns-color-custom.kek-ss-btns-style-minimal .kek-ss-icon {
+  color: #fff; }

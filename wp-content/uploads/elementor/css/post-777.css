@@ -1,0 +1,52 @@
+.elementor-777 .elementor-element.elementor-element-36da4d5:not(.elementor-motion-effects-element-type-background), .elementor-777 .elementor-element.elementor-element-36da4d5 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-29ddbbd );}.elementor-777 .elementor-element.elementor-element-36da4d5, .elementor-777 .elementor-element.elementor-element-36da4d5 > .elementor-background-overlay{border-radius:6px 6px 6px 6px;}.elementor-777 .elementor-element.elementor-element-36da4d5{box-shadow:0px 1px 2px 0px rgba(0, 0, 0, 0.15);transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:4px 12px 4px 12px;}.elementor-777 .elementor-element.elementor-element-36da4d5 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-777 .elementor-element.elementor-element-53bd51d > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-777 .elementor-element.elementor-element-b25963a .elementor-tab-title{border-width:0px;padding:8px 0px 16px 0px;}.elementor-777 .elementor-element.elementor-element-b25963a .elementor-tab-content{border-width:0px;font-family:"Proxima Nova", Sans-serif;font-weight:400;line-height:1.8em;padding:12px 0px 0px 0px;}.elementor-777 .elementor-element.elementor-element-b25963a .elementor-toggle-item:not(:last-child){margin-bottom:24px;}.elementor-777 .elementor-element.elementor-element-b25963a .elementor-toggle-title, .elementor-777 .elementor-element.elementor-element-b25963a .elementor-toggle-icon{color:var( --e-global-color-text );}.elementor-777 .elementor-element.elementor-element-b25963a .elementor-toggle-icon svg{fill:var( --e-global-color-text );}.elementor-777 .elementor-element.elementor-element-b25963a .elementor-tab-title.elementor-active a, .elementor-777 .elementor-element.elementor-element-b25963a .elementor-tab-title.elementor-active .elementor-toggle-icon{color:var( --e-global-color-text );}.elementor-777 .elementor-element.elementor-element-b25963a .elementor-toggle-title{font-family:"Proxima Nova", Sans-serif;font-weight:900;}.elementor-777 .elementor-element.elementor-element-b25963a .elementor-tab-title .elementor-toggle-icon i:before{color:var( --e-global-color-primary );}.elementor-777 .elementor-element.elementor-element-b25963a .elementor-tab-title .elementor-toggle-icon svg{fill:var( --e-global-color-primary );}.elementor-777 .elementor-element.elementor-element-b25963a .elementor-tab-title.elementor-active .elementor-toggle-icon i:before{color:var( --e-global-color-primary );}.elementor-777 .elementor-element.elementor-element-b25963a .elementor-tab-title.elementor-active .elementor-toggle-icon svg{fill:var( --e-global-color-primary );}.elementor-777 .elementor-element.elementor-element-b25963a > .elementor-widget-container{margin:8px 12px 0px 12px;}body.elementor-page-777:not(.elementor-motion-effects-element-type-background), body.elementor-page-777 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-29ddbbd );}body.elementor-page-777{padding:12px 12px 12px 12px;}/* Start custom CSS for toggle, class: .elementor-element-b25963a */.elementor-777 .elementor-element.elementor-element-b25963a .elementor-tab-content {
+    border-top: 1px dashed #00000044;
+}
+.elementor-777 .elementor-element.elementor-element-b25963a .elementor-toggle-icon i {
+    font-size: 1.25em;
+}
+.elementor-777 .elementor-element.elementor-element-b25963a .elementor-toggle .elementor-tab-title {
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+    /*padding: 15px;*/
+    /*border-bottom: 1px solid #d4d4d4;*/
+    cursor: pointer;
+    outline: none;
+    background: #FFFFFF;
+}/* End custom CSS */
+/* Start custom CSS */body.elementor-page-777 {
+    border-radius: 8px;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Regular.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Bold.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Light.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Extrabold.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Extrabold.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

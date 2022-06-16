@@ -1,0 +1,33 @@
+.elementor-9004111222087354 .elementor-element.elementor-element-7b339562:not(.elementor-motion-effects-element-type-background), .elementor-9004111222087354 .elementor-element.elementor-element-7b339562 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-29ddbbd );background-position:center center;background-repeat:no-repeat;background-size:cover;}.elementor-9004111222087354 .elementor-element.elementor-element-7b339562 > .elementor-background-overlay{background-color:transparent;background-image:radial-gradient(at center center, #7C7C7C52 0%, #000000BC 100%);opacity:1;transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-9004111222087354 .elementor-element.elementor-element-7b339562, .elementor-9004111222087354 .elementor-element.elementor-element-7b339562 > .elementor-background-overlay{border-radius:8px 8px 8px 8px;}.elementor-9004111222087354 .elementor-element.elementor-element-7b339562{box-shadow:0px 1px 6px 0px rgba(0, 0, 0, 0.15);transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:115px 0px 40px 0px;}.elementor-bc-flex-widget .elementor-9004111222087354 .elementor-element.elementor-element-2a35cf55.elementor-column .elementor-widget-wrap{align-items:flex-start;}.elementor-9004111222087354 .elementor-element.elementor-element-2a35cf55.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:flex-start;align-items:flex-start;}.elementor-9004111222087354 .elementor-element.elementor-element-2a35cf55 > .elementor-element-populated{padding:50px 0px 0px 0px;}.elementor-9004111222087354 .elementor-element.elementor-element-34335e5e > .elementor-widget-container{margin:0px 0px 50px 0px;}.elementor-9004111222087354 .elementor-element.elementor-element-2c1610aa .elementor-heading-title{color:var( --e-global-color-29ddbbd );font-family:"Proxima Nova", Sans-serif;font-size:2rem;font-weight:800;}.elementor-9004111222087354 .elementor-element.elementor-element-2c1610aa > .elementor-widget-container{padding:0px 0px 0px 15px;}.elementor-9004111222087354 .elementor-element.elementor-element-2e5badd0 .elementor-widget-container{color:var( --e-global-color-29ddbbd );font-family:"Proxima Nova", Sans-serif;font-size:1rem;font-weight:300;}.elementor-9004111222087354 .elementor-element.elementor-element-2e5badd0 > .elementor-widget-container{padding:0px 0px 0px 15px;}@media(max-width:767px){.elementor-9004111222087354 .elementor-element.elementor-element-2c1610aa .elementor-heading-title{font-size:1.25rem;line-height:22px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Regular.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Bold.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Light.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Extrabold.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Extrabold.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

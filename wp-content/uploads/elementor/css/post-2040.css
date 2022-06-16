@@ -1,0 +1,56 @@
+.elementor-2040 .elementor-element.elementor-element-bf1ff22:not(.elementor-motion-effects-element-type-background), .elementor-2040 .elementor-element.elementor-element-bf1ff22 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;background-image:url("http://happiesthealth.local/wp-content/uploads/cus_popup_top_bg.svg");background-repeat:no-repeat;}.elementor-2040 .elementor-element.elementor-element-bf1ff22, .elementor-2040 .elementor-element.elementor-element-bf1ff22 > .elementor-background-overlay{border-radius:6px 6px 6px 6px;}.elementor-2040 .elementor-element.elementor-element-bf1ff22{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:0px;margin-bottom:0px;padding:0px 0px 0px 0px;}.elementor-2040 .elementor-element.elementor-element-bf1ff22 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-2040 .elementor-element.elementor-element-d887fe1 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-2040 .elementor-element.elementor-element-8125f5c img{width:174px;height:144px;}.elementor-2040 .elementor-element.elementor-element-8125f5c > .elementor-widget-container{padding:1.5rem 0rem 0rem 0rem;}.elementor-2040 .elementor-element.elementor-element-b8b94dc{text-align:center;}.elementor-2040 .elementor-element.elementor-element-b8b94dc .elementor-heading-title{color:#000000;font-family:"Proxima Nova", Sans-serif;font-size:22px;font-weight:600;}.elementor-2040 .elementor-element.elementor-element-b8b94dc > .elementor-widget-container{padding:4rem 5rem 1rem 5rem;}.elementor-2040 .elementor-element.elementor-element-0190567{text-align:center;font-family:"Proxima Nova", Sans-serif;font-size:20px;font-weight:400;}.elementor-2040 .elementor-element.elementor-element-0190567 > .elementor-widget-container{padding:0rem 5rem 0rem 5rem;}.elementor-2040 .elementor-element.elementor-element-3c10f4f > .elementor-widget-container{margin:0px 0px 30px 0px;}#elementor-popup-modal-2040 .dialog-message{width:430px;height:auto;}#elementor-popup-modal-2040{justify-content:center;align-items:center;pointer-events:all;background-color:rgba(0,0,0,.8);}#elementor-popup-modal-2040 .dialog-close-button{display:flex;}#elementor-popup-modal-2040 .dialog-widget-content{box-shadow:2px 8px 23px 3px rgba(0,0,0,0.2);}/* Start custom CSS for shortcode, class: .elementor-element-7c3e0a6 */.wpcf7-form label{
+/*width: 100%;*/
+font-weight: bold;
+font-family: "Proxima Nova", Sans-serif;
+padding: 25px 20px 0px 20px ;
+font-size: 16px
+/*position: absolute;*/
+
+
+
+}
+.wpcf7-form input[type=email], .wpcf7-form input[type=tel], .wpcf7-form input[type=text]{
+background-color: #ffffff;
+font-family: "Proxima Nova", Sans-serif;
+border-radius: 25px;
+margin-top:8px;
+min-height: 49px;
+outline: none !important;
+width: 100%;
+}
+input.wpcf7-form-control.has-spinner.wpcf7-submit {
+text-transform: uppercase;
+color: var( --e-global-color-29ddbbd );
+background-color: var( --e-global-color-primary );
+font-family: "Proxima Nova", Sans-serif;
+font-size: 18px;
+font-weight: 500;
+border-radius: 25px 25px 25px 25px;
+width: 115px;
+border: 1px solid #088a91;
+margin-right: 20px;float: right;
+}
+
+
+
+.wpcf7-form input[type=email]:focus, .wpcf7-form input[type=number]:focu, .wpcf7-form .wpcf7-form input[type=tel]:focus, .wpcf7-form input[type=text]:focus {
+/*border-color: #088a91 !important;*/
+outline: none !important;
+}
+.wpcf7-form input[type=email], .wpcf7-form input[type=number], .wpcf7-form input[type=tel], .wpcf7-form input[type=text]{
+border: 1px solid #088a91;
+
+}
+.elementor-2040 .elementor-element.elementor-element-7c3e0a6 .wpcf7-response-output{
+display: none !important;
+}
+.elementor-2040 .elementor-element.elementor-element-7c3e0a6 .wpcf7-not-valid-tip{
+display: none;
+}/* End custom CSS */
+/* Start custom CSS for image, class: .elementor-element-8125f5c */.elementor-2040 .elementor-element.elementor-element-8125f5c .dialog-widget-content{
+    border-radius: 6px !important;
+}/* End custom CSS */
+/* Start custom CSS for html, class: .elementor-element-3c10f4f */.center_button{text-align:center;}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-bf1ff22 */.elementor-2040 .elementor-element.elementor-element-bf1ff22{
+    display: none;
+}/* End custom CSS */

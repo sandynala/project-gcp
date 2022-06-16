@@ -1,0 +1,127 @@
+@import "../../../../../assets/src/styles/variables";
+@import "../../../../../vendor/misqtech/totalsuite-totalcore/assets/styles/helpers";
+
+// ------------------------------------
+// Troubleshooter
+// ------------------------------------
+#totalpoll-troubleshooter {
+  .page-title-action[disabled] {
+    &, &:hover, &:focus {
+      background: $wp-bg;
+      color: $wp-border;
+      border-color: $wp-border;
+      cursor: not-allowed;
+    }
+  }
+
+  .totalpoll-troubleshooter-tests {
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      @include bidi(left, 20px);
+      width: 1px;
+      height: 100%;
+      background: $gray-10;
+      top: 0;
+      bottom: 0;
+    }
+  }
+
+  .totalpoll-troubleshooter-test {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 12px 0;
+
+    &-status {
+      margin: 2px 18px 0 12px;
+      width: 10px;
+      height: 10px;
+      border: 4px solid $wp-bg;
+      border-radius: 50%;
+      background: $wp-border;
+      transition: 0.25s all ease-in;
+    }
+
+    &-body {
+      flex: 1;
+    }
+
+    &-name {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: $baseline/3;
+      transition: 0.25s all ease-in;
+    }
+
+    &-description {
+      font-size: 12px;
+      color: $gray-30;
+    }
+
+    &-actions {
+      margin-top: $baseline/2;
+    }
+
+    p {
+      margin: 0 0 $baseline/2;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &-errors {
+      border-left: 4px solid $secondary;
+      background: #fff;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+      margin: 5px 0 15px;
+      padding: 12px;
+    }
+
+    &-warnings {
+      border-left: 4px solid #ef6c00;
+      background: #fff;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+      margin: 5px 0 15px;
+      padding: 12px;
+    }
+
+    &.running {
+      .totalpoll-troubleshooter-test-status {
+        background: $primary;
+      }
+      .totalpoll-troubleshooter-test-name {
+        color: $primary;
+      }
+    }
+
+    &.errors {
+      .totalpoll-troubleshooter-test-status {
+        background: $secondary;
+      }
+      .totalpoll-troubleshooter-test-name {
+        color: $secondary;
+      }
+    }
+
+    &.warnings {
+      .totalpoll-troubleshooter-test-status {
+        background: #ef6c00;
+      }
+      .totalpoll-troubleshooter-test-name {
+        color: #ef6c00;
+      }
+    }
+
+    &.done {
+      .totalpoll-troubleshooter-test-status {
+        background: $complimentary;
+      }
+      .totalpoll-troubleshooter-test-name {
+        color: $complimentary;
+      }
+    }
+  }
+}

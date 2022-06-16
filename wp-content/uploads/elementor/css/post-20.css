@@ -1,0 +1,174 @@
+.elementor-20 .elementor-element.elementor-element-1c1a89a > .elementor-container{min-height:118px;}.elementor-20 .elementor-element.elementor-element-1c1a89a:not(.elementor-motion-effects-element-type-background), .elementor-20 .elementor-element.elementor-element-1c1a89a > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-29ddbbd );}.elementor-20 .elementor-element.elementor-element-1c1a89a{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-20 .elementor-element.elementor-element-1c1a89a > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-20 .elementor-element.elementor-element-6147f15 > .elementor-element-populated{padding:0px 8px 0px 8px;}.elementor-20 .elementor-element.elementor-element-ea1da0f{width:auto;max-width:auto;}.elementor-bc-flex-widget .elementor-20 .elementor-element.elementor-element-1fc3517.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-20 .elementor-element.elementor-element-1fc3517.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-20 .elementor-element.elementor-element-1fc3517.elementor-column > .elementor-widget-wrap{justify-content:flex-end;}.elementor-20 .elementor-element.elementor-element-203b283 .elementor-search-form__container{min-height:36px;}.elementor-20 .elementor-element.elementor-element-203b283 .elementor-search-form__submit{min-width:36px;}body:not(.rtl) .elementor-20 .elementor-element.elementor-element-203b283 .elementor-search-form__icon{padding-left:calc(36px / 3);}body.rtl .elementor-20 .elementor-element.elementor-element-203b283 .elementor-search-form__icon{padding-right:calc(36px / 3);}.elementor-20 .elementor-element.elementor-element-203b283 .elementor-search-form__input, .elementor-20 .elementor-element.elementor-element-203b283.elementor-search-form--button-type-text .elementor-search-form__submit{padding-left:calc(36px / 3);padding-right:calc(36px / 3);}.elementor-20 .elementor-element.elementor-element-203b283 input[type="search"].elementor-search-form__input{font-family:"Proxima Nova", Sans-serif;font-size:0.9rem;font-weight:400;}.elementor-20 .elementor-element.elementor-element-203b283 .elementor-search-form__input,
+					.elementor-20 .elementor-element.elementor-element-203b283 .elementor-search-form__icon,
+					.elementor-20 .elementor-element.elementor-element-203b283 .elementor-lightbox .dialog-lightbox-close-button,
+					.elementor-20 .elementor-element.elementor-element-203b283 .elementor-lightbox .dialog-lightbox-close-button:hover,
+					.elementor-20 .elementor-element.elementor-element-203b283.elementor-search-form--skin-full_screen input[type="search"].elementor-search-form__input{color:var( --e-global-color-bc7725b );fill:var( --e-global-color-bc7725b );}.elementor-20 .elementor-element.elementor-element-203b283:not(.elementor-search-form--skin-full_screen) .elementor-search-form__container{background-color:#FFFFFF00;border-color:var( --e-global-color-primary );border-width:1px 1px 1px 1px;border-radius:25px;}.elementor-20 .elementor-element.elementor-element-203b283.elementor-search-form--skin-full_screen input[type="search"].elementor-search-form__input{background-color:#FFFFFF00;border-color:var( --e-global-color-primary );border-width:1px 1px 1px 1px;border-radius:25px;}.elementor-20 .elementor-element.elementor-element-203b283 > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-20 .elementor-element.elementor-element-203b283{width:300px;max-width:300px;}.elementor-20 .elementor-element.elementor-element-e84fa62 > .elementor-background-overlay{background-color:#05265A;opacity:1;}.elementor-20 .elementor-element.elementor-element-e84fa62{z-index:100;}.elementor-bc-flex-widget .elementor-20 .elementor-element.elementor-element-681795c.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-20 .elementor-element.elementor-element-681795c.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-20 .elementor-element.elementor-element-681795c > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-20 .elementor-element.elementor-element-e6d1568 img{width:0px;}.elementor-20 .elementor-element.elementor-element-e6d1568:hover img{opacity:0.9;}.elementor-20 .elementor-element.elementor-element-e6d1568{width:auto;max-width:auto;}.elementor-20 .elementor-element.elementor-element-518aa27 .elementor-menu-toggle{margin-right:auto;}.elementor-20 .elementor-element.elementor-element-518aa27 .elementor-nav-menu .elementor-item{font-family:"Proxima Nova", Sans-serif;font-weight:600;text-transform:uppercase;}.elementor-20 .elementor-element.elementor-element-518aa27 .elementor-nav-menu--main .elementor-item{color:#FFFFFF;fill:#FFFFFF;padding-top:16px;padding-bottom:16px;}.elementor-20 .elementor-element.elementor-element-518aa27 .elementor-nav-menu--main .elementor-item:hover,
+					.elementor-20 .elementor-element.elementor-element-518aa27 .elementor-nav-menu--main .elementor-item.elementor-item-active,
+					.elementor-20 .elementor-element.elementor-element-518aa27 .elementor-nav-menu--main .elementor-item.highlighted,
+					.elementor-20 .elementor-element.elementor-element-518aa27 .elementor-nav-menu--main .elementor-item:focus{color:var( --e-global-color-text );fill:var( --e-global-color-text );}.elementor-20 .elementor-element.elementor-element-518aa27 .elementor-nav-menu--dropdown a, .elementor-20 .elementor-element.elementor-element-518aa27 .elementor-menu-toggle{color:var( --e-global-color-text );}.elementor-20 .elementor-element.elementor-element-518aa27 .elementor-nav-menu--dropdown a:hover,
+					.elementor-20 .elementor-element.elementor-element-518aa27 .elementor-nav-menu--dropdown a.elementor-item-active,
+					.elementor-20 .elementor-element.elementor-element-518aa27 .elementor-nav-menu--dropdown a.highlighted,
+					.elementor-20 .elementor-element.elementor-element-518aa27 .elementor-menu-toggle:hover{color:var( --e-global-color-primary );}.elementor-20 .elementor-element.elementor-element-518aa27 .elementor-nav-menu--dropdown a:hover,
+					.elementor-20 .elementor-element.elementor-element-518aa27 .elementor-nav-menu--dropdown a.elementor-item-active,
+					.elementor-20 .elementor-element.elementor-element-518aa27 .elementor-nav-menu--dropdown a.highlighted{background-color:#F4F4F4;}.elementor-20 .elementor-element.elementor-element-518aa27 .elementor-nav-menu--dropdown .elementor-item, .elementor-20 .elementor-element.elementor-element-518aa27 .elementor-nav-menu--dropdown  .elementor-sub-item{font-family:"Proxima Nova", Sans-serif;font-size:1rem;}.elementor-20 .elementor-element.elementor-element-518aa27 .elementor-nav-menu--dropdown a{padding-top:24px;padding-bottom:24px;}.elementor-20 .elementor-element.elementor-element-518aa27{width:1106px;max-width:1106px;}.elementor-20 .elementor-element.elementor-element-4d9e79a{width:auto;max-width:auto;}.elementor-20 .elementor-element.elementor-element-cfd5f7c .elementor-icon-wrapper{text-align:center;}.elementor-20 .elementor-element.elementor-element-cfd5f7c .elementor-icon i, .elementor-20 .elementor-element.elementor-element-cfd5f7c .elementor-icon svg{transform:rotate(0deg);}.elementor-20 .elementor-element.elementor-element-4b40487 .elementor-search-form__container{min-height:36px;}.elementor-20 .elementor-element.elementor-element-4b40487 .elementor-search-form__submit{min-width:36px;}body:not(.rtl) .elementor-20 .elementor-element.elementor-element-4b40487 .elementor-search-form__icon{padding-left:calc(36px / 3);}body.rtl .elementor-20 .elementor-element.elementor-element-4b40487 .elementor-search-form__icon{padding-right:calc(36px / 3);}.elementor-20 .elementor-element.elementor-element-4b40487 .elementor-search-form__input, .elementor-20 .elementor-element.elementor-element-4b40487.elementor-search-form--button-type-text .elementor-search-form__submit{padding-left:calc(36px / 3);padding-right:calc(36px / 3);}.elementor-20 .elementor-element.elementor-element-4b40487 input[type="search"].elementor-search-form__input{font-family:"Proxima Nova", Sans-serif;font-size:0.9rem;font-weight:400;}.elementor-20 .elementor-element.elementor-element-4b40487 .elementor-search-form__input,
+					.elementor-20 .elementor-element.elementor-element-4b40487 .elementor-search-form__icon,
+					.elementor-20 .elementor-element.elementor-element-4b40487 .elementor-lightbox .dialog-lightbox-close-button,
+					.elementor-20 .elementor-element.elementor-element-4b40487 .elementor-lightbox .dialog-lightbox-close-button:hover,
+					.elementor-20 .elementor-element.elementor-element-4b40487.elementor-search-form--skin-full_screen input[type="search"].elementor-search-form__input{color:var( --e-global-color-bc7725b );fill:var( --e-global-color-bc7725b );}.elementor-20 .elementor-element.elementor-element-4b40487:not(.elementor-search-form--skin-full_screen) .elementor-search-form__container{background-color:#FFFFFF00;border-color:var( --e-global-color-primary );border-width:1px 1px 1px 1px;border-radius:25px;}.elementor-20 .elementor-element.elementor-element-4b40487.elementor-search-form--skin-full_screen input[type="search"].elementor-search-form__input{background-color:#FFFFFF00;border-color:var( --e-global-color-primary );border-width:1px 1px 1px 1px;border-radius:25px;}.elementor-20 .elementor-element.elementor-element-4b40487 > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-20 .elementor-element.elementor-element-4b40487{width:300px;max-width:300px;top:0px;}body:not(.rtl) .elementor-20 .elementor-element.elementor-element-4b40487{left:0px;}body.rtl .elementor-20 .elementor-element.elementor-element-4b40487{right:0px;}.elementor-20 .elementor-element.elementor-element-9efacf5:not(.elementor-motion-effects-element-type-background), .elementor-20 .elementor-element.elementor-element-9efacf5 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-29ddbbd );}.elementor-20 .elementor-element.elementor-element-9efacf5{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-20 .elementor-element.elementor-element-9efacf5 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker{height:72px;line-height:72px;background-color:var( --e-global-color-29ddbbd );}.elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker .kek-news-ticker-navigation svg{width:19px;height:19px;}.elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker .kek-news-ticker-label-inner{font-size:1.5rem;font-weight:800;letter-spacing:1.5px;}.elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker .kek-news-ticker-content a{color:var( --e-global-color-text );}.elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker .kek-news-ticker-content span{color:var( --e-global-color-text );}.elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker .kek-news-ticker-content:before, .elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker .kek-news-ticker-content:after{box-shadow:var( --e-global-color-29ddbbd );}.elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker .kek-news-ticker-content{font-size:1.2rem;font-weight:bold;}@media(max-width:767px){.elementor-20 .elementor-element.elementor-element-681795c > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-20 .elementor-element.elementor-element-681795c > .elementor-element-populated{padding:16.02px 20px 16.02px 20px;}.elementor-20 .elementor-element.elementor-element-518aa27 .elementor-menu-toggle{font-size:22px;}.elementor-20 .elementor-element.elementor-element-4d9e79a img{width:170.3px;max-width:100%;}.elementor-20 .elementor-element.elementor-element-cfd5f7c .elementor-icon{font-size:15px;}.elementor-20 .elementor-element.elementor-element-cfd5f7c{width:auto;max-width:auto;}.elementor-20 .elementor-element.elementor-element-4b40487{width:100%;max-width:100%;}}/* Start custom CSS for nav-menu, class: .elementor-element-518aa27 */.elementor-20 .elementor-element.elementor-element-518aa27 nav.elementor-nav-menu--main .menu-item:hover {
+    background: white;
+}
+.elementor-20 .elementor-element.elementor-element-518aa27 nav.elementor-nav-menu--main .menu-item .elementor-item-active {
+    color: white;
+}
+.elementor-20 .elementor-element.elementor-element-518aa27 nav.elementor-nav-menu--main .menu-item .elementor-item-active:hover {
+    color: black;
+}/* End custom CSS */
+/* Start custom CSS for search-form, class: .elementor-element-4b40487 */.elementor-20 .elementor-element.elementor-element-4b40487{
+background-color: #fff;
+}/* End custom CSS */
+/* Start custom CSS for kek-news-ticker, class: .elementor-element-7069c53 */.elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker .kek-news-ticker-label::after{
+border-left-color : transparent;
+}
+.elementor-20 .elementor-element.elementor-element-7069c53 .fa-step-forward, 
+.elementor-20 .elementor-element.elementor-element-7069c53 .fa-step-backward, 
+.elementor-20 .elementor-element.elementor-element-7069c53 .fa-pause {
+  color: grey !important;
+  font-size: 1.3em;
+}
+.elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker-controls button{
+    padding: 8px 6px !important;
+}
+@media (max-width:576px){
+.elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker{
+    height: 230px !important;
+    line-height: 230px !important;
+    }
+.elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker-label{
+    display : block !important;
+    width : 100%;
+    height : 32px;
+    position : relative;
+    background-color : #FF0000;
+    word-wrap: break-word !important;
+    white-space: normal !important;
+}
+.elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker-label-inner{
+    position : absolute;
+    transform : translate(-50%, -50%);
+    top : 50%;
+    left : 50%;
+    word-wrap: break-word !important;
+    white-space: wrap !important;
+    line-height :2;
+}
+.elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker-navigation{
+    display : block;
+    transform : translate(-36%, 77%);
+    line-height : 1;
+}
+.elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker-content{
+    right : 0px !important;
+}
+.elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker-content ul{
+    top : 10px;
+    text-align : center !important;
+    display : block;
+    transform : translate(6%);
+}
+.elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker-content ul li{
+   text-align: left;
+}
+.elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker .kek-news-ticker-content ul li a:first-child {
+    position: relative;
+    padding: 0 12px;
+    word-wrap: normal;
+    white-space: normal;
+    display: block;
+    height: 80px;
+    margin: 40px 20px !important;
+    line-height: 1.2;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    width: 100%;
+    font-size : 16px;
+    }
+.elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker .kek-news-ticker-content ul li a:second-child{
+    display : block !important;
+    width : 100% !important;.
+    }
+.elementor-20 .elementor-element.elementor-element-7069c53 .breaking-news-readmore-button{
+    display : block;
+    top : -20px !important;
+    right : 42% !important;
+    font-weight : bold;
+    line-height : 1;
+    font-size : 14px;
+    color : #088A91;
+    }
+.elementor-20 .elementor-element.elementor-element-7069c53 .kek-news-ticker-controls button{
+    padding : 8px 28px !important;
+    height : 0;
+    float : none;
+    }
+    .elementor-20 .elementor-element.elementor-element-7069c53 .breaking-news-title-width{
+  display : block !important;
+    position: relative;
+    /*padding: 0 12px;*/
+    word-wrap: normal;
+    white-space: normal;
+    display: block;
+    height: 80px;
+    margin: 40px 20px !important;
+    line-height: 1.2;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    width: 100%;
+    font-size: 16px;
+    }
+}/* End custom CSS */
+/* Start custom CSS */.menu-logo img,
+.menu-top {
+    transition: width .4s ease;
+}
+
+.elementor-sticky--active .menu-logo img {
+    width: 32px !important;
+    padding-right: 4px;
+}
+
+.elementor-sticky--active .menu-top {
+    width: 1074px !important;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Regular.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Bold.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Light.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Extrabold.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Extrabold.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

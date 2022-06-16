@@ -1,0 +1,48 @@
+.elementor-765 .elementor-element.elementor-element-13e1bd02:not(.elementor-motion-effects-element-type-background), .elementor-765 .elementor-element.elementor-element-13e1bd02 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;background-image:url("http://happiesthealth.local/wp-content/uploads/cus_popup_top_bg.svg");background-repeat:no-repeat;}.elementor-765 .elementor-element.elementor-element-13e1bd02, .elementor-765 .elementor-element.elementor-element-13e1bd02 > .elementor-background-overlay{border-radius:6px 6px 6px 6px;}.elementor-765 .elementor-element.elementor-element-13e1bd02{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:0px;margin-bottom:0px;padding:0px 0px 0px 0px;}.elementor-765 .elementor-element.elementor-element-13e1bd02 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-765 .elementor-element.elementor-element-5d4fcaa8 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-765 .elementor-element.elementor-element-7e205280 img{width:174px;height:144px;}.elementor-765 .elementor-element.elementor-element-7e205280 > .elementor-widget-container{padding:1.5rem 0rem 0rem 0rem;}.elementor-765 .elementor-element.elementor-element-6a1a739e{text-align:center;}.elementor-765 .elementor-element.elementor-element-6a1a739e .elementor-heading-title{color:#000000;font-family:"Proxima Nova", Sans-serif;font-size:22px;font-weight:600;}.elementor-765 .elementor-element.elementor-element-6a1a739e > .elementor-widget-container{padding:6rem 0rem 0rem 0rem;}.elementor-765 .elementor-element.elementor-element-30501cea{text-align:center;font-family:"Proxima Nova", Sans-serif;font-size:20px;font-weight:400;}.elementor-765 .elementor-element.elementor-element-30501cea > .elementor-widget-container{padding:1rem 5rem 1rem 5rem;}.elementor-765 .elementor-element.elementor-element-41c0a3d2 .elementor-button{font-family:"Proxima Nova", Sans-serif;font-size:18px;font-weight:600;background-color:#088A91;border-radius:25px 25px 25px 25px;box-shadow:0px 1px 2px 0px rgba(24.000000000000007, 145, 152, 0.16862745098039217);padding:014px 052px 014px 052px;}.elementor-765 .elementor-element.elementor-element-41c0a3d2 > .elementor-widget-container{padding:0rem 0rem 2rem 0rem;}#elementor-popup-modal-765 .dialog-message{width:453px;height:auto;}#elementor-popup-modal-765{justify-content:center;align-items:center;pointer-events:all;background-color:rgba(0,0,0,.8);}#elementor-popup-modal-765 .dialog-close-button{display:flex;}#elementor-popup-modal-765 .dialog-widget-content{animation-duration:0.4s;box-shadow:2px 8px 23px 3px rgba(0,0,0,0.2);}#elementor-popup-modal-765 .dialog-close-button i{color:#FFFFFF;}#elementor-popup-modal-765 .dialog-close-button svg{fill:#FFFFFF;}/* Start custom CSS for image, class: .elementor-element-7e205280 */.elementor-765 .elementor-element.elementor-element-7e205280 .dialog-widget-content{
+    border-radius: 6px !important;
+}/* End custom CSS */
+/* Start custom CSS */#elementor-popup-modal-765 .elementor-section-wrap{
+    min-height : 0 !important;
+}
+#elementor-popup-modal-765 #elementor-add-new-section{
+    margin: 0px;
+}
+#elementor-popup-modal-765 .elementor-add-section-inner{
+    margin: 0px;
+}
+#elementor-popup-modal-765 .dialog-widget-content{
+    border-radius: 6px;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Regular.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Bold.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Light.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Extrabold.woff') format('woff'),
+		url('http://happiesthealth.local/wp-content/uploads/Proxima-Nova-Extrabold.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
