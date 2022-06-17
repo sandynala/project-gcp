@@ -24,9 +24,9 @@ define( 'DB_NAME', 'kwshh_dev' );
 /** MySQL database username */
 define( 'DB_USER', 'root' );
 /** MySQL database password */
-define( 'DB_PASSWORD', 'Some@Rand0mP@ssW0rd!' );
+define( 'DB_PASSWORD', '' );
 /** MySQL hostname */
-define( 'DB_HOST', '10.16.3.16' );
+define( 'DB_HOST', 'localhost' );
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
 /** The database collate type. Don't change this if in doubt. */
