@@ -30,7 +30,7 @@ pipeline {
 			    script {
 				    sh "docker build -t hmwordpress ."
                                     sh "docker ps -a"
-                                    sh "docker run -dit --name wp-cont -p 9000:80 hmwordpress:latest"
+                                    sh "docker run -dit --name wp1-cont -p 9000:80 hmwordpress:latest"
                                     sh "docker ps -a"
                                     sh "docker images"
 
