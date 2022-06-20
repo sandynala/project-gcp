@@ -29,9 +29,8 @@ pipeline {
 			    sh 'whoami'
 			    script {
 				    sh "docker build -t hmwordpress ."
-                                    sh "docker rm dfb0d"
                                     sh "docker ps -a"
-                                    sh "docker run -dit --name wp-cont -p 8000:80 hmwordpress:latest"
+                                    sh "docker run -dit --name wp-cont1 -p 8000:80 hmwordpress:latest"
                                     sh "docker ps -a"
                                     sh "docker images"
 
