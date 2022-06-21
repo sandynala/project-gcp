@@ -26,7 +26,7 @@ define( 'DB_USER', 'root' );
 /** MySQL database password */
 define( 'DB_PASSWORD', 'Jenkinsmysql@123' );
 /** MySQL hostname */
-define( 'DB_HOST', '10.128.0.3' );
+define( 'DB_HOST', '34.133.225.121' );
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
 /** The database collate type. Don't change this if in doubt. */
