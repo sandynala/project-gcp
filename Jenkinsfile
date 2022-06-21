@@ -28,10 +28,14 @@ pipeline {
 		    steps {
 			    sh 'whoami'
 			    script {
-				    sh "docker build -t hmwordpress ."
-                                    sh "docker stop 380663e87425"
+				    sh "docker build -t gcr.io/jenkins51435/hmwordpress:latest ."
+                                    sh "docker stop 7a59e8dfd2e1"
                                     sh "docker ps -a"
-                                    sh "docker rm 380663e87425"
+                                    sh "docker rm 7a59e8dfd2e1"
+                                    sh "echo docker pushing to gcr"
+                                    sh "docker push gcr.io/jenkins51435/hmwordpress:latest
+                                    sh "echo docker pushed successfully to gcr"
+                                    sh "echo docker run started"
                                     sh "docker run -dit --name wp-cont -p 8000:80 hmwordpress:latest"
                                     sh "docker ps -a"
                                     sh "docker images"
@@ -42,3 +46,6 @@ pipeline {
  }
 
 }
+
+
+docker build -t gcr.io/<projectid>/reponame:tag
