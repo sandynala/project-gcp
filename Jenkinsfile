@@ -36,6 +36,10 @@ pipeline {
                                     sh "docker run -dit --name wp-cont -p 8000:80 hmwordpress:latest"
                                     sh "docker ps -a"
                                     sh "docker images"
+                                    sh "echo dockerimage pushing to gcr"
+                                    sh "docker tag hmwordpress gcr.io/hmwordpress:latest"
+                                    sh "docker images"
+                                    sh "docker push gcr.io/hmwordpress:latest"
 
 			    }
 		    }
