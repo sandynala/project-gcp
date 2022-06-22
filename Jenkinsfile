@@ -3,6 +3,13 @@ pipeline {
 	tools {
 		maven 'Maven'
 	}	
+
+      environment {
+		PROJECT_ID = 'jenkins51435'
+                CLUSTER_NAME = 'k8s-cluster'
+                LOCATION = 'us-central1-c'
+                CREDENTIALS_ID = 'kubernetes'		
+	}
 	
     stages {
 	    stage('Scm Checkout') {
@@ -30,24 +37,35 @@ pipeline {
 			    script {
 				    sh "docker build -t hmwordpress:latest ."
                                     sh "docker ps -a"
-                                    sh "docker stop b2464ceb4a96"
-                                    sh "docker rm b2464ceb4a96"
+                                    sh "docker stop 4c8e1392abe4"
+                                    sh "docker rm 4c8e1392abe4"
                                     sh "echo docker run started"
                                     sh "docker run -dit --name wp-cont -p 8000:80 hmwordpress:latest"
                                     sh "docker ps -a"
                                     sh "docker images"
                                     sh "echo dockerimage pushing to gcr..."
                                     sh "gcloud auth configure-docker"
-                                    sh "docker tag hmwordpress gcr.io/jenkins51435/gcp-hmwordpress:v1"
+                                    sh "docker tag hmwordpress gcr.io/jenkins51435/gcp-hmwordpress:v2"
                                     sh "docker images"
-                                    sh "sudo docker push gcr.io/jenkins51435/gcp-hmwordpress:v1"
+                                    sh "sudo docker push gcr.io/jenkins51435/gcp-hmwordpress:v2"
                                     sh "echo docker image pushed sucessfully to gcr"
 
 			    }
 		    }
 	    }
- }
 
+
+          stage('Deploy to K8s') {
+		    steps{
+			    echo "Deployment started ..."
+			    sh 'ls -ltr'
+			    sh 'pwd'
+			    sh "sed -i 's/tagversion/${env.BUILD_ID}/g' gcpwordpress-deployment.yaml"
+			    echo "Start deployment of deployment.yaml"
+			    step([$class: 'KubernetesEngineBuilder', projectId: env.PROJECT_ID, clusterName: env.CLUSTER_NAME, location: env.LOCATION, manifestPattern: 'gcpwordpress-deployment.yaml', credentialsId: env.CREDENTIALS_ID, verifyDeployments: true])
+			    echo "Deployment Finished ..."
+		    }
+	    }
+    }
 }
-
 
