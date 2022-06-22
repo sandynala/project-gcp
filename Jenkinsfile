@@ -30,8 +30,8 @@ pipeline {
 			    script {
 				    sh "docker build -t hmwordpress:latest ."
                                     sh "docker ps -a"
-                                    sh "docker stop cf27382d0568"
-                                    sh "docker rm cf27382d0568"
+                                    sh "docker stop 8bd6f04bffa9"
+                                    sh "docker rm 8bd6f04bffa9"
                                     sh "echo docker run started"
                                     sh "docker run -dit --name wp-cont -p 8000:80 hmwordpress:latest"
                                     sh "docker ps -a"
@@ -40,7 +40,7 @@ pipeline {
                                     sh "gcloud auth configure-docker"
                                     sh "docker tag hmwordpress gcr.io/gcp-hmwordpress:v1"
                                     sh "docker images"
-                                    sh "docker push gcr.io/hmwordpress:latest"
+                                    sh "sudo docker push gcr.io/gcp-hmwordpress:v1"
 
 			    }
 		    }
