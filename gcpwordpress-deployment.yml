@@ -1,0 +1,105 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: gcp-hh-secret
+type: Opaque
+stringData:
+  dbhost: "34.133.225.121"
+  dbname: "kwshh_gcp"
+  dbuser: "root"
+  dbpass: "Jenkinsmysql@123"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gcp-hh-wordpress
+  labels:
+    app: gcp-hh-wordpress
+spec:
+  ports:
+   - name: http
+     port: 9090
+     targetPort: 80
+     protocol: TCP
+  selector:
+    app: gcp-hh-wordpress
+  type: LoadBalancer
+---
+# apiVersion: v1
+# kind: PersistentVolumeClaim
+# metadata:
+#   name: gcp-wp-pvc
+#   labels:
+#     app: gcp-hh-wordpress
+# spec:
+#   accessModes:
+#     - ReadWriteOnce
+#   resources:
+#     requests:
+#       storage: 50Gi 
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gcp-hh-wordpress
+  labels:
+    app: gcp-hh-wordpress
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gcp-hh-wordpress
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: gcp-hh-wordpress
+    spec:
+      containers:
+      - image: gcr.io/jenkins51435/gcp-hmwordpress
+        name: gcp-hh-wordpress
+        env:
+        - name: WORDPRESS_DB_HOST
+          valueFrom:
+            secretKeyRef:
+              name: gcp-hh-secret
+              key: dbhost
+        - name: WORDPRESS_DB_NAME
+          valueFrom:
+            secretKeyRef:
+              name: gcp-hh-secret
+              key: dbname
+        - name: WORDPRESS_DB_USER
+          valueFrom:
+            secretKeyRef:
+              name: gcp-hh-secret
+              key: dbuser
+        - name: WORDPRESS_DB_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: gcp-hh-secret
+              key: dbpass
+        ports:
+        - containerPort: 80
+          name: gcp-wordpress
+      #   volumeMounts:
+      #   - name: gcp-wordpress-persistent-storage
+      #     mountPath: /var/www/html
+      # volumes:
+      # - name: gcp-wordpress-persistent-storage
+      #   persistentVolumeClaim:
+      #     claimName: gcp-wp-pvc
+---
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: gcp-hh-wordpress
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: gcp-hh-wordpress
+  minReplicas: 2
+  maxReplicas: 4
+  targetCPUUtilizationPercentage: 80
