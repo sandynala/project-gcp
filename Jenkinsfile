@@ -45,9 +45,9 @@ pipeline {
                                     sh "docker images"
                                     sh "echo dockerimage pushing to gcr..."
                                     sh "gcloud auth configure-docker"
-                                    sh "docker tag hmwordpress gcr.io/jenkins51435/gcp-hmwordpress:v2"
+                                    sh "docker tag hmwordpress gcr.io/jenkins51435/gcp-hmwordpress:v3"
                                     sh "docker images"
-                                    sh "sudo docker push gcr.io/jenkins51435/gcp-hmwordpress:v2"
+                                    sh "sudo docker push gcr.io/jenkins51435/gcp-hmwordpress:v3"
                                     sh "echo docker image pushed sucessfully to gcr"
 
 			    }
