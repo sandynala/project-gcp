@@ -37,8 +37,9 @@ pipeline {
 			    script {
 				    sh "docker build -t hmwordpress:latest ."
                                     sh "docker ps -a"
-                                    sh "docker stop a8cb021ea726"
-                                    sh "docker rm a8cb021ea726"
+                                    #sh "docker stop a8cb021ea726"
+                                    #sh "docker rm a8cb021ea726"
+                                    sh "docker rm $(docker ps -a -q)"
                                     sh "echo docker run started"
                                     sh "docker run -dit --name wp-cont -p 8000:80 hmwordpress:latest"
                                     sh "docker ps -a"
