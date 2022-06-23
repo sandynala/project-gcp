@@ -57,7 +57,7 @@ spec:
         app: gcp-hh-wordpress
     spec:
       containers:
-      - image: gcr.io/jenkins51435/gcp-hmwordpress
+      - image: jenkins51435/gcp-hmwordpress
         name: gcp-hh-wordpress
         env:
         - name: WORDPRESS_DB_HOST
@@ -90,16 +90,16 @@ spec:
       # - name: gcp-wordpress-persistent-storage
       #   persistentVolumeClaim:
       #     claimName: gcp-wp-pvc
----
-apiVersion: autoscaling/v1
-kind: HorizontalPodAutoscaler
-metadata:
-  name: gcp-hh-wordpress
-spec:
-  scaleTargetRef:
-    apiVersion: apps/v1
-    kind: Deployment
-    name: gcp-hh-wordpress
-  minReplicas: 2
-  maxReplicas: 4
-  targetCPUUtilizationPercentage: 80
+#---
+#apiVersion: autoscaling/v1
+#kind: HorizontalPodAutoscaler
+#metadata:
+#  name: gcp-hh-wordpress
+#spec:
+#  scaleTargetRef:
+#    apiVersion: apps/v1
+#    kind: Deployment
+#    name: gcp-hh-wordpress
+#  minReplicas: 2
+#  maxReplicas: 4
+#  targetCPUUtilizationPercentage: 80
