@@ -34,6 +34,7 @@ pipeline {
 	    stage('Build Docker Image') {
 		    steps {
 			    sh 'whoami'
+                            sh 'df -h'
 			    script {
 				    sh "docker build -t hmwordpress:latest ."
                                     sh "docker ps -a"
