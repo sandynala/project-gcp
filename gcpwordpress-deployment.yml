@@ -24,7 +24,7 @@ spec:
   selector:
     app: gcp-hh-wordpress
   type: LoadBalancer
----
+#---
 # apiVersion: v1
 # kind: PersistentVolumeClaim
 # metadata:
