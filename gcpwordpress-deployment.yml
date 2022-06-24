@@ -57,7 +57,7 @@ spec:
         app: gcp-hh-wordpress
     spec:
       containers:
-      - image: jenkins51435/gcp-hmwordpress
+      - image: gcr.io/jenkins51435/gcp-hmwordpress
         name: gcp-hh-wordpress
         env:
         - name: WORDPRESS_DB_HOST
