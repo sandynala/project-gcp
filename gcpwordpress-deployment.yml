@@ -82,7 +82,6 @@ spec:
               key: dbpass
         ports:
         - containerPort: 80
-          name: gcp-wordpress
       #   volumeMounts:
       #   - name: gcp-wordpress-persistent-storage
       #     mountPath: /var/www/html
