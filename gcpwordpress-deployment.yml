@@ -4,7 +4,7 @@ metadata:
   name: gcp-hh-secret
 type: Opaque
 stringData:
-  dbhost: "34.133.225.121"
+  dbhost: "34.71.122.150"
   dbname: "kwshh_gcp"
   dbuser: "root"
   dbpass: "Jenkinsmysql@123"
@@ -57,7 +57,7 @@ spec:
         app: gcp-hh-wordpress
     spec:
       containers:
-      - image: gcr.io/jenkins51435/gcp-hmwordpress
+      - image: gcr.io/jenkins51435/gcp-hmwordpress:v3
         name: gcp-hh-wordpress
         env:
         - name: WORDPRESS_DB_HOST
